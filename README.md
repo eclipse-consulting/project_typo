@@ -1,5 +1,8 @@
 # Project Typo
-Set theory in LEAN4
+
+The goal of this project is to replace all of the symbols of 𝔖 ("Set") theory with emojis, and to replace all of the names of theorems with the names of famous video game characters.
+
+The LEAN file contains the basic definitions of 𝔖 theory with emojis.
 
 ## Link's 𝔖 Difference Self Theorem [The Legend of Zelda]
 
