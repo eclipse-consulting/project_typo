@@ -25,28 +25,28 @@ theorem ext {s₁ s₂ : 𝔖 α} (h : ∀ s, s ⩹ s₁ ↔ s ⩹ s₂) : s₁ 
   funext (fun 𝔛 => propext (h 𝔛))
 def empty : 𝔖 α := fun 𝔛 => False
 
--- ⦰ now denotes "empty 𝔖"
+-- let ⦰ denote "empty 𝔖"
 notation (priority := high) "⦰" => empty
 
--- ⧉ now denotes "intersection"
+-- let ⧉ denote "intersection"
 def inter (s₁ s₂ : 𝔖 α) : 𝔖 α :=
   fun 𝔛 => 𝔛 ⩹ s₁ ∧ 𝔛 ⩹ s₂
 
 infix:70 " ⧉ " => inter
 
--- ⛜ now denotes "union"
+-- let ⛜ denote "union"
 def union (s₁ s₂ : 𝔖 α) : 𝔖 α :=
   fun 𝔛 => 𝔛 ⩹ s₁ ∨ 𝔛 ⩹ s₂
 
 infix:65 " ⛜ " => union
 
--- ⚮ now denotes "𝔖 difference"
+-- let ⚮ denote "𝔖 difference"
 def diff (s₁ s₂ : 𝔖 α) : 𝔖 α :=
   fun 𝔛 => 𝔛 ⩹ s₁ ∧ ¬ 𝔛 ⩹ s₂
 
 infix:60 " ⚮ " => 𝔖.diff
 
--- ˟ now denotes "complement"
+-- let ˟ denote "complement"
 def complement (s : 𝔖 α) : 𝔖 α :=
   fun 𝔛 => ¬ 𝔛 ⩹ s
 
