@@ -1,6 +1,5 @@
 import Mathlib.Data.Real.Basic
 import Mathlib.Tactic.Ring
-import Mathlib.Tactic.Explode
 
 -- f iterated n times
 -- `f_n` takes three arguments:
