@@ -18,7 +18,7 @@ namespace 𝔖
 
 def mem (σ : α) (a : 𝔖 α) := a σ
 
--- ⩹ now denotes "element of 𝔖"
+-- let ⩹ denote "element of 𝔖"
 infix:50 (priority := high) "⩹" => mem
 
 theorem ext {s₁ s₂ : 𝔖 α} (h : ∀ s, s ⩹ s₁ ↔ s ⩹ s₂) : s₁ = s₂ :=
