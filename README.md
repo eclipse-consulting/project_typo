@@ -1,6 +1,9 @@
 # Project Typo
 
-The goal of this project is to replace all of the symbols of 𝔖 ("Set") theory with emojis, and to replace all of the names of theorems with the names of famous video game characters.
+![mario_kart](https://github.com/user-attachments/assets/1aae4075-f0ac-4d08-8e26-17ce1bf690ab)
+
+
+The goal of this project is to replace all of the symbols of 𝔖 ("Set") theory with emojis, and to replace all of the names of theorems with the names of famous video game characters, using the Lean 4 programming language and theorem prover.
 
 The LEAN file contains the basic definitions of 𝔖 theory with emojis.
 
