@@ -4,7 +4,7 @@
 
 The goal of this project is to replace all of the symbols of 𝔖 ("Set") theory with emojis, and to replace all of the names of theorems with the names of famous video game characters, using the Lean 4 programming language and theorem prover.
 
-The LEAN file contains the basic definitions of 𝔖 theory with emojis.
+The LEAN files contain the basic definitions of 𝔖 theory with emojis, along with exercise problems relating to function iteration.
 
 ## Link's 𝔖 Difference Self Theorem [The Legend of Zelda]
 
